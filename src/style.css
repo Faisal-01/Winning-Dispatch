@@ -4,6 +4,7 @@
 
 :root{
     --primary-color: #EE4B2B
+    /* --primary-color: rgb(238, 75, 43) */
 }
 
 .show-nav{
@@ -13,10 +14,15 @@
     background-color: white;
     top: 0;
     left: 0;
-    margin-top: 65px;
+    margin-top: 88px;
     padding: 10px;
+}
+
+.show-nav > li{
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .show-cross{
     display: flex;
 }
+
