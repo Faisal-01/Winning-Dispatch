@@ -1,0 +1,4 @@
+/node_modules
+.github/**/node_modules
+
+/tailwind.config.js
