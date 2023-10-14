@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../build/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="flex flex-col">
+        <div class="w-full bg-primary-color">
+            <div class="w-full h-max flex flex-col justify-between p-5 m-auto lg:w-9/12 sm:flex-row">
+                <div class="text-white flex justify-center items-center gap-x-2">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Call us +1(517) 760-5222</p>
+                </div>
+    
+                <div class="flex items-center gap-x-2 text-white justify-center">
+                    <i class="fas fa-envelope"></i>
+                    <p>winningdispatchservices@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-full h-max  flex justify-between p-5 m-auto lg:w-9/12">
+            <div class="flex w-1/2 items-center">
+                <img class="w-20 h-20 object-cover" src="../public/images/Red Modern Truck Logo.png" alt="Winning Dispatch Logo">
+            </div>
+
+            <div class="w-1/2 flex items-center justify-end lg:justify-center ">
+                <ul id="nav" class="w-full font-medium justify-between hidden lg:flex">
+                    <li>Home</li>
+                    <li>Features</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+
+                <div id="toggleButton" class="flex  lg:hidden">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+
+                <div id="cross" class="hidden z-10">
+                    <i class="fas fa-times text-3xl"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col w-full  justify-center lg:items-center lg:w-9/12 m-auto lg:flex-row ">
+            <div class="flex flex-col lg:w-1/2 h-full pl-5 text-center md:text-left md:justify-left">
+                <h1 class="text-3xl md:text-5xl md:text-left font-bold leading-tight text-center">Double Your Income for Every Mile Traveled</h1>
+
+                <p class="mt-2 md:mt-5 text-lg md:text-xl">We aid in maximizing your earnings while simplifying your cargo transportation.</p>
+
+                <button  class="border px-12 py-2 text-lg md:text-xl mt-2 md:mt-5  text-white flex items-center gap-3 w-max ml-auto mr-auto lg:mx-0 bg-primary-color">See Details
+                    <i class="fas fa-long-arrow-alt-right text-2xl"></i>
+                </button>
+            </div>
+
+            <div class="flex justify-end lg:w-1/2 lg:justify-center">
+                <img class="w-3/4 m-auto md:w-auto" src="../public/images/truck.png" alt="truck image">
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
