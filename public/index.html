@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Winning Dispatch Services - Top Notch Services</title>
     <link rel="stylesheet" href="./style.css">
-
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-    <div class="bg-image">
+    <div  class="bg-image">
     </div>
-    <div class="flex flex-col z-10">
+    <div id="home" class="flex flex-col z-10 ">
         <div class="w-full bg-primary-color">
             <div class="w-full h-max flex flex-col justify-between p-5 m-auto lg:w-9/12 sm:flex-row">
                 <div class="text-white flex justify-center items-center gap-x-2">
@@ -37,18 +37,18 @@
 
             <div class="w-1/2 flex items-center justify-end lg:justify-center">
                 <ul id="nav" class="w-full text-xl font-medium justify-between hidden lg:flex">
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>Services</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li class="p-2 "><a class="hover:text-primary-color" href="#home">Home</a></li>
+                    <li class="p-2"><a class="hover:text-primary-color" href="#features">Features</a></li>
+                    <li class="p-2"><a class="hover:text-primary-color" href="#services">Services</a></li>
+                    <li class="p-2"><a class="hover:text-primary-color" href="#">About</a></li>
+                    <li class="p-2"><a class="hover:text-primary-color" href="#">Contact</a></li>
                 </ul>
 
-                <div id="toggleButton" class="flex lg:hidden">
+                <div id="toggleButton" class="cursor-pointer flex lg:hidden">
                     <i class="fas fa-bars fa-2x"></i>
                 </div>
 
-                <div id="cross" class="hidden z-10 absolute top-24">
+                <div id="cross" class="cursor-pointer hidden z-10 absolute top-24">
                     <i class="fas fa-times text-3xl"></i>
                 </div>
             </div>
@@ -83,32 +83,98 @@
         </button>
     </div>
 
-    <div class="w-9/12 flex flex-col mx-auto mt-12 items-center">
+    <div id="features" class="w-9/12 flex flex-col mx-auto mt-12 items-center">
         <h1 class="text-3xl font-bold">Features</h1>
 
         <div class="grid grid-cols-1 gap-10 justify-center mt-12 md:grid-cols-2 ">
-            <div class="p-5 md:p-10 border flex flex-col items-center justify-center">
+            <div class="p-5 md:p-10 border border-border-color flex flex-col items-center justify-center">
                 <img class="w-3/4 md:w-1/2" src="./images/features/money.png" alt="profit">
-                <h2 class="text-xl font-bold ">Cargo with a Profitable Gross Rate</h2>
-                <p class="text-center mt-3">When you have Winning Dispatch on your team, there's no stopping your path to success. We excel at discovering and allocating loads that not only boost your income but also expedite your financial growth.</p>
+                <h2 class="text-xl font-bold text-center">Cargo with a Profitable Gross Rate</h2>
+                <p class="text-center mt-3">When you have Winning Dispatch on your team, there's no stopping your path
+                    to success. We excel at discovering and allocating loads that not only boost your income but also
+                    expedite your financial growth.</p>
             </div>
-            <div class="p-5 md:p-10 border flex flex-col items-center justify-center">
+            <div class="p-5 md:p-10 border flex border-border-color flex-col items-center justify-center">
                 <img class="w-3/4 md:w-3/5 " src="./images/features/truck.png" alt="loading">
-                <h2 class="text-xl font-bold mt-2">Cargo with a Profitable Gross Rate</h2>
-                <p class="text-center mt-3">When you have Winning Dispatch on your team, there's no stopping your path to success. We excel at discovering and allocating loads that not only boost your income but also expedite your financial growth.</p>
+                <h2 class="text-xl font-bold mt-2 text-center">A Full Week of Loading</h2>
+                <p class="text-center mt-3">We ensure that you have lucrative loads for the entire week and go the extra
+                    mile to eliminate any concerns about what comes next.</p>
             </div>
-            <div class="p-5 md:p-10 border flex flex-col items-center">
+            <div class="p-5 md:p-10 border flex border-border-color flex-col items-center">
                 <img class="w-3/4 md:w-1/2" src="./images/features/revenue.png" alt="increase revenue">
-                <h2 class="text-xl font-bold mt-3">Cargo with a Profitable Gross Rate</h2>
-                <p class="text-center mt-3">When you have Winning Dispatch on your team, there's no stopping your path to success. We excel at discovering and allocating loads that not only boost your income but also expedite your financial growth.</p>
+                <h2 class="text-xl font-bold mt-3 text-center">Raise Earnings by $4 for Every Mile</h2>
+                <p class="text-center mt-3">Our primary goal is to boost your revenue. That's why we put in the effort
+                    to assist you in earning extra income for every mile you travel.</p>
             </div>
-            <div class="p-5 md:p-10 border flex flex-col items-center">
+            <div class="p-5 md:p-10 border flex border-border-color flex-col items-center">
                 <img class="w-3/4 md:w-1/2 mt-3" src="./images/features/support.jpg" alt="support">
-                <h2 class="text-xl font-bold mt-3">Cargo with a Profitable Gross Rate</h2>
-                <p class="text-center mt-3">When you have Winning Dispatch on your team, there's no stopping your path to success. We excel at discovering and allocating loads that not only boost your income but also expedite your financial growth.</p>
+                <h2 class="text-xl font-bold mt-3 text-center">You are assigned a committed dispatcher</h2>
+                <p class="text-center mt-3">We hold you in high regard, which is why we allocate a dedicated dispatcher
+                    exclusively to your needs. This ensures smooth load pickup and delivery, all tailored to your
+                    requirements.</p>
             </div>
         </div>
     </div>
+
+    <div id="services" class="bg-red-100">
+        <div class="pt-10 w-9/12 flex flex-col mx-auto mt-12 items-center">
+            <h1 class="text-3xl font-bold">Services</h1>
+
+            <div class="grid grid-cols-1 gap-10 mt-12  md:grid-cols-6 md:place-content-center">
+                <div class=" flex flex-col items-center col-span-2">
+                    <div
+                        class="bg-white flex justify-center items-center text-6xl w-32 h-32 border-red-700 rounded-full p-10">
+
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h2 class="text-xl font-bold text-center mt-2">Extensive Dispatch Team</h2>
+                    <p class="text-center mt-3">Our extensive dispatch team offers you all the resources and backup
+                        support necessary to ensure your safe and swift journey to your destination.</p>
+                </div>
+                <div class=" flex flex-col items-center col-span-2">
+                    <div
+                        class="bg-white flex justify-center items-center text-6xl w-32 h-32 border-red-700 rounded-full p-10">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h2 class="text-xl font-bold mt-2 text-center">Extensive Broker Network</h2>
+                    <p class="text-center mt-3">We guarantee a seamless flow of freight and incident-free load
+                        deliveries through our extensive network of brokers.</p>
+                </div>
+                <div class=" flex flex-col items-center col-span-2">
+                    <div
+                        class="bg-white flex justify-center items-center text-6xl w-32 h-32 border-red-700 rounded-full p-10">
+
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h2 class="text-xl font-bold mt-3 text-center">Loads Available for Every U.S. State</h2>
+                    <p class="text-center mt-3">You can find and deliver loads anywhere in the country. Just input your
+                        preferred location, and we will promptly identify available loads in that area.</p>
+                </div>
+                <div class=" flex flex-col items-center col-span-2 col-start-1 md:col-start-2">
+                    <div
+                        class="bg-white flex justify-center items-center text-6xl w-32 h-32  rounded-full p-10 ">
+
+                        <i class="fas fa-truck-moving"></i>
+                    </div>
+                    <h2 class="text-xl font-bold mt-3 text-center">We Handle Trucks of All Models</h2>
+                    <p class="text-center mt-3">We collaborate with a diverse range of trucks, encompassing box, dry
+                        van, reefer, flatbed, and step deck, covering small trailers to larger freight carriers.</p>
+                </div>
+                <div class=" flex flex-col items-center col-span-2">
+                    <div
+                        class="bg-white flex justify-center items-center text-6xl w-32 h-32 border-red-700 rounded-full p-10">
+
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h2 class="text-xl font-bold mt-3 text-center">Fully Automated Services</h2>
+                    <p class="text-center mt-3">We leverage cutting-edge technology to oversee and facilitate every
+                        stage of your haul, ensuring efficient pickups.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <script src="./script.js"></script>

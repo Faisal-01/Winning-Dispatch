@@ -32,4 +32,4 @@ setInterval(() => {
     bgImage.style.backgroundImage = `url('./images/${images[count]}')`
 
     
-}, 3000)
+}, 6000)

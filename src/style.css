@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 :root{
-    --primary-color: #EE4B2B
-    /* --primary-color: rgb(238, 75, 43) */
+    /* --primary-color: #EE4B2B */
+    --primary-color: rgb(127 29 29);
+    /* --border-color: rgb(255, 195, 195)*/
+    --border-color: rgb(254, 202, 202)
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .show-nav{
@@ -16,10 +22,11 @@
     left: 0;
     margin-top: 88px;
     padding: 10px;
+    /* color: rgb(255, 195, 195); */
 }
 
 .show-nav > li{
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--border-color)
 }
 
 .show-cross{
