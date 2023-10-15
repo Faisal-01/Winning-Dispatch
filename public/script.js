@@ -14,3 +14,22 @@ cross.addEventListener("click", () => {
     nav.classList.remove("show-nav")
     cross.classList.add("hidden")
 })
+
+const bgImage = document.querySelector(".bg-image");
+const images = ['map1.gif', 'map2.jpg', 'map3.png'];
+
+// setInterval(() => {
+//     const image = images[Math.floor(Math.random() * images.length)]
+//     bgImage.style.backgroundImage = `url('./images/${image}')`
+// }, 3000)
+
+let count = 0;
+setInterval(() => {
+    count++;
+    if(count > 2){
+        count = 0;
+    }
+    bgImage.style.backgroundImage = `url('./images/${images[count]}')`
+
+    
+}, 3000)

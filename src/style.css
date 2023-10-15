@@ -26,3 +26,15 @@
     display: flex;
 }
 
+.bg-image{
+    background-image: url("./images/map1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
