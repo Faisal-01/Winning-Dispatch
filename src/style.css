@@ -45,3 +45,15 @@ html{
     width: 100%;
     z-index: -1;
 }
+
+.contact-bg{
+    background-image: url("./images/contact truck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5; */
+}
+
+.transparent{
+    background-color: rgba(0, 0, 0, 0.5);
+}
