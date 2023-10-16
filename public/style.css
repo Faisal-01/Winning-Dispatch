@@ -661,6 +661,30 @@ video {
   height: max-content;
 }
 
+.h-\[550\] {
+  height: 550;
+}
+
+.h-\[550px\] {
+  height: 550px;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -712,6 +736,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .items-center {
@@ -999,6 +1027,10 @@ html{
 
   .md\:-ml-7 {
     margin-left: -1.75rem;
+  }
+
+  .md\:h-\[500px\] {
+    height: 500px;
   }
 
   .md\:w-1\/2 {

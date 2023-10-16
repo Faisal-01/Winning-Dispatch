@@ -33,3 +33,12 @@ setInterval(() => {
 
     
 }, 6000)
+
+const btnSubmit = document.querySelector("#btnSubmit");
+const labels = document.querySelectorAll("label");
+console.log(btnSubmit)
+btnSubmit.addEventListener("click", () => {
+    labels.forEach((e) => {
+        e.value = "";
+    })
+})
